@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DCD34F0D-7197-4A61-AE23-E4D63FEFFB51}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TryHTTP</RootNamespace>
+    <AssemblyName>TryHTTP</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="www\Anime.html" />
+    <Content Include="www\AnimeStyles.css" />
+    <Content Include="www\Characters.html" />
+    <Content Include="www\CharactersStyles.css" />
+    <Content Include="www\Contact.html" />
+    <Content Include="www\ContactStyles.css" />
+    <Content Include="www\Images\964499.jpg" />
+    <Content Include="www\Images\970585.jpg" />
+    <Content Include="www\Images\974525.jpg" />
+    <Content Include="www\Images\cat.bmp" />
+    <Content Include="www\Images\EbriLFYbLXc.jpg" />
+    <Content Include="www\Images\izumi_shinichi_6375x4071_drop_312257.jpg" />
+    <Content Include="www\Images\leone_8000x5037_ManaAlchemist_294222.png" />
+    <Content Include="www\Images\lgk3FK3B8sc.jpg" />
+    <Content Include="www\Images\majin_tantei_nougami_neuro_1376x1400_Radioactive_63820.jpg" />
+    <Content Include="www\Images\miketsukami_soushi_2400x1542_Katsumi_127363.png" />
+    <Content Include="www\Images\natsume_zange_650x700_staticphrase_1106532.jpg" />
+    <Content Include="www\Images\Q7YEjyu1qsU.jpg" />
+    <Content Include="www\Images\TRFFC13.ICO" />
+    <Content Include="www\Images\uAUjwYe8qkM.jpg" />
+    <Content Include="www\Images\uchiha_sasuke_2591x3493_Radioactive_434695.png" />
+    <Content Include="www\Images\ulquiorra_cifer_6000x4500_Guaro1238_3482642.png" />
+    <Content Include="www\Images\violet_evergarden_1300x731_Nephren_3673362.jpg" />
+    <Content Include="www\LabMain.html" />
+    <Content Include="www\LabMainStyles.css" />
+    <Content Include="www\MainStyles.css" />
+    <Content Include="www\News.html" />
+    <Content Include="www\NewsStyles.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

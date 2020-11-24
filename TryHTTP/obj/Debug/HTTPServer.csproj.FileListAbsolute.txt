@@ -1,0 +1,6 @@
+D:\prog\4 sem\KSIS\Labs\Lab_4\TryHTTP\TryHTTP\bin\Debug\TryHTTP.exe.config
+D:\prog\4 sem\KSIS\Labs\Lab_4\TryHTTP\TryHTTP\bin\Debug\TryHTTP.exe
+D:\prog\4 sem\KSIS\Labs\Lab_4\TryHTTP\TryHTTP\bin\Debug\TryHTTP.pdb
+D:\prog\4 sem\KSIS\Labs\Lab_4\TryHTTP\TryHTTP\obj\Debug\HTTPServer.csprojAssemblyReference.cache
+D:\prog\4 sem\KSIS\Labs\Lab_4\TryHTTP\TryHTTP\obj\Debug\TryHTTP.exe
+D:\prog\4 sem\KSIS\Labs\Lab_4\TryHTTP\TryHTTP\obj\Debug\TryHTTP.pdb
